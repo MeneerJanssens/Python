@@ -15,11 +15,26 @@ Het doel van **invoer** en **uitvoer** is om interactie met de gebruiker mogelij
 | f-strings (`f"..."`) | Formatteerbare string voor makkelijk invoegen van variabelen | `print(f"Hallo, {naam}!")`         |
 
 ## 1.1 Samengestelde tekst (concatenatie)
-```python
-naam = input("Wat is je naam?")
-leeftijd = input("wat is je leeftijd?") 
-print("Hallo, mijn naam is " + naam + " en ik ben " + str(leeftijd) + " jaar oud.")
-```
+In Python kun je _concatenation_ (samenvoegen van strings) op twee manieren uitvoeren:
+
+1. **Met de `+` operator**: De `+` operator wordt gebruikt om twee of meer strings samen te voegen.
+    ```python
+    string1 = "Hallo"
+    string2 = "wereld"
+    resultaat = string1 + " " + string2  # Voeg een spatie toe tussen de woorden
+    print(resultaat)  # Output: Hallo wereld
+    ```
+
+2. **Met de `,` (comma) in `print()`**: De `,` in een `print()` statement zorgt ervoor dat verschillende waarden achter elkaar worden gezet, gescheiden door een spatie. Dit verandert de string niet permanent, maar zorgt ervoor dat ze mooi achter elkaar worden weergegeven bij het afdrukken.
+   ```python
+    string1 = "Hallo"
+    string2 = "wereld"
+    print(string1, string2)  # Output: Hallo wereld
+    ```
+
+Het belangrijkste verschil:
+- Bij de `+` operator worden de strings _echt_ samengevoegd en krijg je een nieuwe string.
+- Bij de `,` in `print()` worden de waarden naast elkaar afgedrukt, maar de strings zelf blijven onveranderd.
 
 # 2 Variabelen
 Het doel van een **variabele** is om gegevens op te slaan die tijdens de uitvoering van een programma kunnen worden gebruikt, gewijzigd of opgehaald. Variabelen dienen als container voor verschillende soorten gegevens, zoals getallen, tekst of objecten, en geven deze gegevens een naam die kan worden aangeroepen wanneer dat nodig is. Ze maken het mogelijk om dynamisch met gegevens te werken en je programma flexibel en efficiënt te maken.
