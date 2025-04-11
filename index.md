@@ -9,6 +9,7 @@ Het doel van **invoer** en **uitvoer** is om interactie met de gebruiker mogelij
 | `float()`            | Zet een string om naar een kommagetal                        | `prijs = float(input())`           |
 | `str()`              | Zet een getal of object om naar een string                   | `str(leeftijd)`                    |
 | f-strings (`f"..."`) | Formatteerbare string voor makkelijk invoegen van variabelen | `print(f"Hallo, {naam}!")`         |
+
 ## 1.1 Samengestelde tekst (concatenatie)
 ```python
 naam = input("Wat is je naam?")
@@ -51,6 +52,7 @@ Het doel van **wiskundige operatoren** is om numerieke berekeningen uit te voere
 | `//`     | Gehele deling (floor)     | `7 // 2`  | `3`       |
 | `%`      | Modulus (rest bij deling) | `7 % 3`   | `1`       |
 | `**`     | Machtsverheffing          | `2 ** 3`  | `8`       |
+
 ## 4.1 Prioriteit van Operatoren (Volgorde)
 Python volgt **PEMDAS**:
 1. **P**arentheses (haakjes): `(3 + 2) * 5`
@@ -80,6 +82,7 @@ Het doel van **relationele operatoren** is om twee waarden met elkaar te vergeli
 | `<`      | Kleiner dan               | `8 < 2`   | `False`   |
 | `>=`     | Groter dan of gelijk aan  | `6 >= 6`  | `True`    |
 | `<=`     | Kleiner dan of gelijk aan | `1 <= 6`  | `True`    |
+
 ## 5.1 Belangrijk verschil!
 Met `=` pas je een waarde aan, terwijl je met `==` alleen controleert of iets gelijk is.
 ### 5.1.1 `=` (toekenningsoperator)
@@ -164,6 +167,7 @@ Deze ingebouwde functies maken het mogelijk om veelvoorkomende berekeningen snel
 | `divmod()`     | Geeft quotiënt en rest van een deling      | `divmod(9, 4)` → `(2, 1)`         |
 | `isinstance()` | Controleert het type van een object        | `isinstance(10, int)` → `True`    |
 | `sorted()`     | Sorteert een lijst                         | `sorted([3, 1, 4])` → `[1, 3, 4]` |
+
 # 10 Functies maken
 **Functies** worden gebruikt om code te groeperen die een specifieke taak uitvoert, wat hergebruik en overzichtelijkheid bevordert. Ze helpen duplicatie van code te vermijden en maken programma's gemakkelijker te onderhouden. Functies kunnen parameters aannemen, gegevens verwerken en resultaten teruggeven. Hierdoor kun je complexe programma's modulair en efficiënter opbouwen.
 
