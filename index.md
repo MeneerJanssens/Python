@@ -1,16 +1,5 @@
 ---
-layout: default
 title: Python spiekbrief
----
-
-## Table of Contents
-
-- [1 Invoer en uitvoer](#1 Invoer en uitvoer)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [FAQ](#faq)
-
 ---
 
 # 1 Invoer en uitvoer
