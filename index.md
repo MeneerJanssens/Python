@@ -22,14 +22,16 @@ In Python kun je _concatenation_ (samenvoegen van strings) op twee manieren uitv
     string1 = "Hallo"
     string2 = "wereld"
     resultaat = string1 + " " + string2  # Voeg een spatie toe tussen de woorden
-    print(resultaat)  # Output: Hallo wereld
+    print(resultaat)
+    # Output: Hallo wereld
     ```
 
 2. **Met de `,` (comma) in `print()`**: De `,` in een `print()` statement zorgt ervoor dat verschillende waarden achter elkaar worden gezet, gescheiden door een spatie. Dit verandert de string niet permanent, maar zorgt ervoor dat ze mooi achter elkaar worden weergegeven bij het afdrukken.
    ```python
     string1 = "Hallo"
     string2 = "wereld"
-    print(string1, string2)  # Output: Hallo wereld
+    print(string1, string2)
+    # Output: Hallo wereld
     ```
 
 Het belangrijkste verschil:
