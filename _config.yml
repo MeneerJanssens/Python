@@ -3,5 +3,4 @@ theme: minima
 title: Python spiekbrief
 description: De Python spiekbrief van het jaar!
 Author: Dietrich Janssens
-include:
-  - head-custom.html
+site_favicon: favicon.ico
