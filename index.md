@@ -1,3 +1,18 @@
+---
+layout: default
+title: Python spiekbrief
+---
+
+## Table of Contents
+
+- [1 Invoer en uitvoer](#1 Invoer en uitvoer)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [FAQ](#faq)
+
+---
+
 # 1 Invoer en uitvoer
 Het doel van **invoer** en **uitvoer** is om interactie met de gebruiker mogelijk te maken en gegevens te verwerken binnen een programma.
 
