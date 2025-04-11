@@ -56,7 +56,6 @@ Het doel van **wiskundige operatoren** is om numerieke berekeningen uit te voere
 | `%`      | Modulus (rest bij deling) | `7 % 3`   | `1`       |
 | `**`     | Machtsverheffing          | `2 ** 3`  | `8`       |
 
-
 ## 4.1 Prioriteit van Operatoren (Volgorde)
 Python volgt **PEMDAS**:
 1. **P**arentheses (haakjes): `(3 + 2) * 5`
