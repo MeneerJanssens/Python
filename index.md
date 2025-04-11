@@ -1,4 +1,3 @@
-Python spiekbrief
 # 1 Invoer en uitvoer
 Het doel van **invoer** en **uitvoer** is om interactie met de gebruiker mogelijk te maken en gegevens te verwerken binnen een programma.
 
