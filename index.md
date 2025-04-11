@@ -93,7 +93,8 @@ result = 3 + 2 * 2 ** 3 / 4 - 1
 # 3. Deling: 16 / 4 = 4
 # 4. Optelling: 3 + 4 = 7
 # 5. Aftrekking: 7 - 1 = 6
-print(result)  # Output: 6.0
+print(result)
+# Output: 6.0
 ```
 
 # 5 Relationele Operatoren
