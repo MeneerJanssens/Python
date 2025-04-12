@@ -7,7 +7,7 @@ site_favicon: favicon.ico
 
 # Optional: to show a sidebar with a TOC
 just_the_docs:
-  logo: "" # you can set your own logo path
+  logo: "logo.png" # you can set your own logo path
   show_sidebar: true
   search_enabled: true
 
