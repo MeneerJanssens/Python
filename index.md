@@ -18,7 +18,7 @@ Het doel van **invoer** en **uitvoer** is om interactie met de gebruiker mogelij
 | `str()`              | Zet een getal of object om naar een string                   | `str(leeftijd)`                    |
 | f-strings (`f"..."`) | Formatteerbare string voor makkelijk invoegen van variabelen | `print(f"Hallo, {naam}!")`         |
 
-## 1.1 Samengestelde tekst (concatenatie)
+## 1.1 Samengestelde tekst (concatenatie) {: .no_toc }
 In Python kun je _concatenation_ (samenvoegen van strings) op twee manieren uitvoeren:
 
 1. **Met de `+` operator**: De `+` operator wordt gebruikt om twee of meer strings samen te voegen.
