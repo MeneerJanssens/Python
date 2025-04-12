@@ -1,5 +1,5 @@
 # _config.yml
-theme: minima
+theme: just-the-docs
 title: Python spiekbrief
 description: De Python spiekbrief van het jaar!
 Author: Dietrich Janssens
