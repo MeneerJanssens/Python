@@ -8,6 +8,7 @@ site_favicon: favicon.ico
 # Optional: to show a sidebar with a TOC
 just_the_docs:
   search_enabled: true
+  nav_enabled: false
 
 # GitHub Pages settings
 plugins:
