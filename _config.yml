@@ -4,6 +4,7 @@ title: Python spiekbrief
 description: De Python spiekbrief van het jaar!
 Author: Dietrich Janssens
 site_favicon: favicon.ico
+nav_enabled: false
 
 # Optional: to show a sidebar with a TOC
 just_the_docs:
