@@ -4,3 +4,13 @@ title: Python spiekbrief
 description: De Python spiekbrief van het jaar!
 Author: Dietrich Janssens
 site_favicon: favicon.ico
+
+# Optional: to show a sidebar with a TOC
+just_the_docs:
+  logo: "" # you can set your own logo path
+  show_sidebar: true
+  search_enabled: true
+
+# GitHub Pages settings
+plugins:
+  - jekyll-seo-tag
