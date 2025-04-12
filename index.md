@@ -1,5 +1,7 @@
 ---
+layout: default
 title: Python spiekbrief
+nav_order: 1
 ---
 
 # 1 Invoer en uitvoer
