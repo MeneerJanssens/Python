@@ -159,7 +159,9 @@ Deze ingebouwde functies maken het mogelijk om veelvoorkomende berekeningen snel
 
 # 7 Importeren van een library
 Het doel van het importeren van een **library** is om toegang te krijgen tot vooraf geschreven code die specifieke functionaliteiten biedt, zoals wiskundige berekeningen, bestandsbeheer, netwerkcommunicatie, of data-analyse. Dit bespaart tijd en moeite doordat je niet zelf alles hoeft te programmeren, en je kunt eenvoudig gebruikmaken van de geoptimaliseerde en goed geteste functies die de bibliotheken bieden.
+
 ## 7.1 De `math`-bibliotheek in Python
+{: .no_toc }
 In Python gebruik je de **`math`-bibliotheek** als je wiskundige functies nodig hebt, zoals kwadraten, vierkantswortels of goniometrie.
 
 Om de bibliotheek te gebruiken, schrijf je eerst bovenaan je programma:
