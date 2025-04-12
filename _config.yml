@@ -1,5 +1,5 @@
 # _config.yml
-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
 title: Python spiekbrief
 description: De Python spiekbrief van het jaar!
 Author: Dietrich Janssens
