@@ -86,6 +86,7 @@ Het doel van **wiskundige operatoren** is om numerieke berekeningen uit te voere
 | `**`     | Machtsverheffing          | `2 ** 3`  | `8`       |
 
 ## 4.1 Prioriteit van Operatoren (Volgorde)
+{: .no_toc }
 Python volgt **PEMDAS**:
 1. **P**arentheses (haakjes): `(3 + 2) * 5`
 2. **E**xponents (machtsverheffing): `2 ** 3`
@@ -118,8 +119,11 @@ Het doel van **relationele operatoren** is om twee waarden met elkaar te vergeli
 | `<=`     | Kleiner dan of gelijk aan | `1 <= 6`  | `True`    |
 
 ## 5.1 Belangrijk verschil!
+{: .no_toc }
 Met `=` pas je een waarde aan, terwijl je met `==` alleen controleert of iets gelijk is.
+
 ### 5.1.1 `=` (toekenningsoperator)
+{: .no_toc }
 De **enkele gelijkheidsteken** wordt gebruikt om een **waarde toe te wijzen** aan een variabele.  
 Bijvoorbeeld: Hier wordt `5` opgeslagen in de variabele `x`.
 
@@ -127,7 +131,9 @@ Bijvoorbeeld: Hier wordt `5` opgeslagen in de variabele `x`.
 x = 5  # Wijs de waarde 5 toe aan de variabele x
 print(x) # 5
 ```
+
 ### 5.1.2 `==` (vergelijkingsoperator)
+{: .no_toc }
 De **dubbele gelijkheidsteken** wordt gebruikt om **twee waarden te vergelijken**. Het controleert of de waarden aan beide kanten van de operator **gelijk zijn** en retourneert een boolean (`True` of `False`).  Bijvoorbeeld:
 
 ```python
@@ -164,7 +170,9 @@ import math
 ```
 
 Daarna kan je allerlei handige functies gebruiken met `math.` ervoor.
+
 ### 7.1.1 Veelgebruikte functies in `math`
+{: .no_toc }
 
 |Functie|Wat doet het?|Voorbeeld|
 |---|---|---|
@@ -182,6 +190,7 @@ Daarna kan je allerlei handige functies gebruiken met `math.` ervoor.
 
 # 8 Condities 
 ## 8.1 `if, elif, else -statements`
+{: .no_toc }
 Met een eenvoudige `if`-verklaring kun je controleren of een voorwaarde waar is en vervolgens een actie uitvoeren.
 De `else`-verklaring wordt uitgevoerd als de voorwaarde in de `if` niet waar is.
 Met `elif` kun je meerdere voorwaarden controleren in plaats van alleen één.
@@ -197,6 +206,7 @@ else:
 
 # 9 Logische operatoren
 ## 9.1 `and`, `or`, en `not`
+{: .no_toc }
 Deze **logische operatoren** worden vaak gebruikt in **voorwaardelijke** statements en **logische vergelijkingen** om complexere beslissingen te maken in programma's.
 
 |**Operator**|**Beschrijving**|**Voorbeeld**|**Resultaat**|
@@ -216,6 +226,7 @@ if x > 3 and (y < 15 or z > 10):
 
 # 10 Loops
 ## 10.1 `For`-loop
+{: .no_toc }
 De `for`-loop wordt vaak gebruikt wanneer je van tevoren weet hoe vaak je een actie wilt herhalen.
 
 ```python
@@ -224,6 +235,7 @@ for i in range(5):  # Van 0 t/m 4
 ```
 
 ## 10.2 `While`-loop
+{: .no_toc }
 De `while`-loop wordt gebruikt wanneer je wilt blijven herhalen zolang een bepaalde voorwaarde waar is. Je weet vaak niet van tevoren hoeveel iteraties je zult doen. 
 
 ```python
