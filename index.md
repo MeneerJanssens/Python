@@ -3,7 +3,7 @@ layout: default
 title: Python spiekbrief
 ---
 
-- TOC
+- Inhoudstafel
 {:toc}
 
 # 1 Invoer en uitvoer
