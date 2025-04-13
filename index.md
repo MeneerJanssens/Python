@@ -9,7 +9,8 @@ title: Python spiekbrief
 {:toc}
 
 # 0 Opdrachten
-[Oefeningen via Snakify]((https://snakify.org/en/))
+[Learn Python with Snakify](https://snakify.org/en/)
+<a href="https://snakify.org/en/" target="_blank" rel="noopener noreferrer">Learn Python with Snakify</a>
 
 # 1 Invoer en uitvoer
 Het doel van **invoer** en **uitvoer** is om interactie met de gebruiker mogelijk te maken en gegevens te verwerken binnen een programma.
