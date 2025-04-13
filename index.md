@@ -8,6 +8,7 @@ title: Python spiekbrief
 - TOC
 {:toc}
 
+# 0 Opdrachten
 [Oefeningen via Snakify]([Teach Python 3 and web design with 200+ exercises - Learn Python 3 - Snakify](https://snakify.org/en/))
 
 # 1 Invoer en uitvoer
