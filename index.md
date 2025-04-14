@@ -9,7 +9,7 @@ title: Python spiekbrief
 {:toc}
 
 # 0 Oefenen via Snakify
-<a href="https://snakify.org/en/" target="_blank" rel="noopener noreferrer">Maak oefeningen over Python met Snakify</a>
+<a href="https://snakify.org/en/" target="_blank" rel="noopener noreferrer">Maak oefeningen over Python met Snakify</a> <br>
 <a href="[https://snakify.org/en/](https://www.online-python.com/)" target="_blank" rel="noopener noreferrer">Online Python IDE</a>
 
 # 1 Invoer en uitvoer
