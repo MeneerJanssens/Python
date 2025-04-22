@@ -237,13 +237,13 @@ if x > 3 and (y < 15 or z > 10):
 {: .no_toc }
 De `for`-loop wordt vaak gebruikt wanneer je van tevoren weet hoe vaak je een actie wilt herhalen.
 
-Basis
+**Basis**
 ```python
 for i in range(5):  
     print(i)    # print van 0 tot en met 4
 ```
 
-Uitbreiding
+**Uitbreiding**
 ```python
 for i in range(1, 6, 2): # De derde term is de grootte van de sprong
     print(i, end=' ') # end=' ' voegt het gegeven teken toe aan het einde van de print
