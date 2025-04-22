@@ -243,7 +243,7 @@ for i in range(5):
     print(i)
 ```
 
-🔁 Dit doet:
+Dit doet:
 - Herhaal de code 5 keer (voor de waarden 0, 1, 2, 3, 4).
 - `i` verandert telkens met 1.
 - De code binnen de for-loop (de inspringing) wordt elke keer uitgevoerd.
