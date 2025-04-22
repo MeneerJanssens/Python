@@ -242,6 +242,12 @@ for i in range(5):  # Van 0 t/m 4
     print(i)
 ```
 
+```python
+for i in range(1, 6, 2): # De derde term is de grootte van de sprong
+    print(i, end=' ') #end=' ' voegt het gegeven teken toe aan het einde van de print
+# 1 3 5
+```
+
 ## 10.2 `While`-loop
 {: .no_toc }
 De `while`-loop wordt gebruikt wanneer je wilt blijven herhalen zolang een bepaalde voorwaarde waar is. Je weet vaak niet van tevoren hoeveel iteraties je zult doen. 
