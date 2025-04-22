@@ -280,7 +280,7 @@ for i in range(5):
 
 Dit print: `0 1 2 3 4`
 
-### 10.1.3 Belangrijke dingen om te onthouden:
+### 10.1.4 Belangrijke dingen om te onthouden:
 - `range(start, stop, stap)` is de basis van de for-loop.
 - De **stop** is **exclusief** (je gaat tot **net ervoor**).
 - `end=" "` zorgt ervoor dat `print()` geen enter zet, maar een spatie.
