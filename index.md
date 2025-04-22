@@ -236,7 +236,7 @@ if x > 3 and (y < 15 or z > 10):
 ## 10.1 `For`-loop
 Een **for-loop** gebruik je om iets **meerdere keren** te herhalen. Je weet op voorhand **hoe vaak** of **welke stappen** je wil nemen.
 
-### Basisvoorbeeld:
+### 10.1.1 Basisvoorbeeld:
 {: .no_toc }
 ```python
 for i in range(5):
@@ -248,9 +248,7 @@ for i in range(5):
 - `i` verandert telkens met 1.
 - De code binnen de for-loop (de inspringing) wordt elke keer uitgevoerd.
 
----
-
-### Andere sprongen maken:
+### 10.1.2 Andere sprongen maken:
 {: .no_toc }
 Je kan ook zelf kiezen waar je begint, stopt en hoeveel je telt per stap:
 
@@ -270,9 +268,7 @@ for i in range(10, 0, -1):
 
 Dit print: `10 9 8 7 6 5 4 3 2 1` (start bij 10, telt telkens -1)
 
----
-
-### Alles op één lijn printen:
+### 10.1.3 Alles op één lijn printen:
 {: .no_toc }
 Standaard zet `print()` alles op een **nieuwe regel**. Wil je alles **naast elkaar** op dezelfde regel?
 
@@ -284,9 +280,7 @@ for i in range(5):
 
 Dit print: `0 1 2 3 4`
 
----
-
-### Belangrijke dingen om te onthouden:
+### 10.1.3 Belangrijke dingen om te onthouden:
 - `range(start, stop, stap)` is de basis van de for-loop.
 - De **stop** is **exclusief** (je gaat tot **net ervoor**).
 - `end=" "` zorgt ervoor dat `print()` geen enter zet, maar een spatie.
