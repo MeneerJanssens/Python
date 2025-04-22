@@ -234,6 +234,7 @@ if x > 3 and (y < 15 or z > 10):
 
 # 10 Loops
 ## 10.1 `For`-loop
+{: .no_toc }
 Een **for-loop** gebruik je om iets **meerdere keren** te herhalen. Je weet op voorhand **hoe vaak** of **welke stappen** je wil nemen.
 
 ### 10.1.1 Basisvoorbeeld
@@ -281,6 +282,7 @@ for i in range(5):
 Dit print: `0 1 2 3 4`
 
 ### 10.1.4 Belangrijke dingen om te onthouden:
+{: .no_toc }
 - `range(start, stop, stap)` is de basis van de for-loop.
 - De **stop** is **exclusief** (je gaat tot **net ervoor**).
 - `end=" "` zorgt ervoor dat `print()` geen enter zet, maar een spatie.
