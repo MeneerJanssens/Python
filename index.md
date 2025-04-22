@@ -234,21 +234,62 @@ if x > 3 and (y < 15 or z > 10):
 
 # 10 Loops
 ## 10.1 `For`-loop
+Een **for-loop** gebruik je om iets **meerdere keren** te herhalen. Je weet op voorhand **hoe vaak** of **welke stappen** je wil nemen.
+
+### Basisvoorbeeld:
 {: .no_toc }
-De `for`-loop wordt vaak gebruikt wanneer je van tevoren weet hoe vaak je een actie wilt herhalen.
-
-**Basis**
 ```python
-for i in range(5):  
-    print(i)    # print van 0 tot en met 4
+for i in range(5):
+    print(i)
 ```
 
-**Uitbreiding**
+🔁 Dit doet:
+- Herhaal de code 5 keer (voor de waarden 0, 1, 2, 3, 4).
+- `i` verandert telkens met 1.
+- De code binnen de for-loop (de inspringing) wordt elke keer uitgevoerd.
+
+---
+
+### Andere sprongen maken:
+{: .no_toc }
+Je kan ook zelf kiezen waar je begint, stopt en hoeveel je telt per stap:
+
 ```python
-for i in range(1, 6, 2): # De derde term is de grootte van de sprong
-    print(i, end=' ') # end=' ' voegt het gegeven teken toe aan het einde van de print
-# 1 3 5
+for i in range(1, 10, 2):
+    print(i)
 ```
+
+Dit print: `1 3 5 7 9` (start bij 1, telt telkens +2 tot onder 10)
+
+Je kan ook **achteruit tellen**:
+
+```python
+for i in range(10, 0, -1):
+    print(i)
+```
+
+Dit print: `10 9 8 7 6 5 4 3 2 1` (start bij 10, telt telkens -1)
+
+---
+
+### Alles op één lijn printen:
+{: .no_toc }
+Standaard zet `print()` alles op een **nieuwe regel**. Wil je alles **naast elkaar** op dezelfde regel?
+
+Gebruik dan:
+```python
+for i in range(5):
+    print(i, end=" ")
+```
+
+Dit print: `0 1 2 3 4`
+
+---
+
+### Belangrijke dingen om te onthouden:
+- `range(start, stop, stap)` is de basis van de for-loop.
+- De **stop** is **exclusief** (je gaat tot **net ervoor**).
+- `end=" "` zorgt ervoor dat `print()` geen enter zet, maar een spatie.
 
 ## 10.2 `While`-loop
 {: .no_toc }
