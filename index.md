@@ -238,13 +238,13 @@ if x > 3 and (y < 15 or z > 10):
 De `for`-loop wordt vaak gebruikt wanneer je van tevoren weet hoe vaak je een actie wilt herhalen.
 
 ```python
-for i in range(5):  # Van 0 t/m 4
-    print(i)
+for i in range(5):  
+    print(i)    # print van 0 tot en met 4
 ```
 
 ```python
 for i in range(1, 6, 2): # De derde term is de grootte van de sprong
-    print(i, end=' ') #end=' ' voegt het gegeven teken toe aan het einde van de print
+    print(i, end=' ') # end=' ' voegt het gegeven teken toe aan het einde van de print
 # 1 3 5
 ```
 
