@@ -13,7 +13,7 @@ nav_order: 1
 # 0 Oefenen via Snakify
 <a href="https://snakify.org/en/" target="_blank" rel="noopener noreferrer">Maak oefeningen over Python met Snakify</a> <br>
 Tip 1: Ga bij moeilijk oefeningen op zoek naar het verband tussen de getallen. Wat zie je steeds veranderen? Is er een patroon? Probeer eerst de oefeningen wiskundig op papier op te lossen. Je gebruikte methode zet je dan om naar Python. <br>
-Tip 2: Plaats extra prints in je code om te zien welke waarde je getallen hebben. 
+Tip 2: Plaats extra prints in je code om te zien welke waarde je variabelen hebben. 
 
 # 1 Invoer en uitvoer
 Het doel van **invoer** en **uitvoer** is om interactie met de gebruiker mogelijk te maken en gegevens te verwerken binnen een programma.
