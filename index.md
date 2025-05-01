@@ -48,9 +48,20 @@ In Python kun je _concatenation_ (samenvoegen van strings) op twee manieren uitv
     # Output: Hallo wereld
     ```
 
+3. Een **f-string** in Python gebruik je om variabelen of expressies direct in een tekst in te voegen. Je plaatst een **f** voor de openingsaanhalingstekens van de string, en zet de variabelen of expressies tussen accolades `{}`.
+```python
+naam = "Emma"
+leeftijd = 16
+print(f"{naam} is {leeftijd} jaar oud.")
+```
+
+**Uitvoer:**  
+`Emma is 16 jaar oud.`
+
 Het belangrijkste verschil:
 - Bij de `+` operator worden de strings _echt_ samengevoegd en krijg je een nieuwe string.
 - Bij de `,` in `print()` worden de waarden naast elkaar afgedrukt, maar de strings zelf blijven onveranderd.
+- Bij de f-string krijg je de meest duidelijke manier. 
 
 # 2 Variabelen
 Het doel van een **variabele** is om gegevens op te slaan die tijdens de uitvoering van een programma kunnen worden gebruikt, gewijzigd of opgehaald. Variabelen dienen als container voor verschillende soorten gegevens, zoals getallen, tekst of objecten, en geven deze gegevens een naam die kan worden aangeroepen wanneer dat nodig is. Ze maken het mogelijk om dynamisch met gegevens te werken en je programma flexibel en efficiënt te maken.
