@@ -41,7 +41,7 @@ In Python kun je _concatenation_ (samenvoegen van strings) op twee manieren uitv
     ```
 
 2. **Met de `,` (comma) in `print()`**: De `,` in een `print()` statement zorgt ervoor dat verschillende waarden achter elkaar worden gezet, gescheiden door een spatie. Dit verandert de string niet permanent, maar zorgt ervoor dat ze mooi achter elkaar worden weergegeven bij het afdrukken.
-   ```python
+    ```python
     string1 = "Hallo"
     string2 = "wereld"
     print(string1, string2)
@@ -49,14 +49,12 @@ In Python kun je _concatenation_ (samenvoegen van strings) op twee manieren uitv
     ```
 
 3. Een **f-string** in Python gebruik je om variabelen of expressies direct in een tekst in te voegen. Je plaatst een **f** voor de openingsaanhalingstekens van de string, en zet de variabelen of expressies tussen accolades `{}`.
-```python
-naam = "Emma"
-leeftijd = 16
-print(f"{naam} is {leeftijd} jaar oud.")
-```
-
-**Uitvoer:**  
-`Emma is 16 jaar oud.`
+    ```python
+    naam = "Emma"
+    leeftijd = 16
+    print(f"{naam} is {leeftijd} jaar oud.")
+    # Output: Emma is 16 jaar oud.
+    ```
 
 Het belangrijkste verschil:
 - Bij de `+` operator worden de strings _echt_ samengevoegd en krijg je een nieuwe string.
